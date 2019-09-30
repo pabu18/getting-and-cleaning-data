@@ -12,7 +12,7 @@ featureswantednames <- gsub('-mean', 'Mean', featureswantednames)
 featureswantednames <- gsub('-std', 'Std', featureswantednames)
 featureswantednames <- gsub('[-()]', '', featureswantednames)
 
-
+hi
 
 train <- read.table("UCI HAR Dataset/train/X_train.txt")[featureswanted]
 trainlabels <- read.table("UCI HAR Dataset/train/Y_train.txt")
