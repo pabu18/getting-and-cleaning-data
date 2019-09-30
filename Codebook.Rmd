@@ -4,7 +4,7 @@ author: "Anant Sharma"
 date: "5/31/2019"
 output: html_document
 ---
-
+yo pabu
 subject : the subject number.(total 30 subjects)
 activity: which activity is performed.(total 6 activities were performed)
 
