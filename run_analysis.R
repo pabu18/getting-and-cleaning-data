@@ -36,4 +36,4 @@ library(reshape2)
 datasetmelted <- melt(dataset, id = c("subject", "activity"))
 datasetmean <- dcast(datasetmelted, subject + activity ~ variable, mean)
 
-write.table(datasetmean, "tidy.txt", row.names = FALSE, quote = FALSE)
+write.table(datasetmean,lmlm "tidy.txt", row.names = FALSE, quote = FALSE)
